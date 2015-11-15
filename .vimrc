@@ -13,6 +13,10 @@ nmap N Nzz
 nmap <C-h> <C-w>h
 " C-l moves to 'right' window
 nmap <C-l> <C-w>l
+" Up window
+nmap <C-j> <C-w>j
+" Down window
+nmap <C-k> <C-w>k
 
 " Fast 'go to normal mode' actions
 imap jj <Esc>j
@@ -24,10 +28,12 @@ imap <C-k> <Esc>k
 imap <C-o> <Esc>o
 
 " Force me to use hjkl instead of arrows
-imap <Left> <Esc>
-imap <Right> <Esc>
 imap <Up> <Esc>
 imap <Down> <Esc>
+nmap <Up> <Esc>
+nmap <Down> <Esc>
+nmap <Left> <Esc>
+nmap <Right> <Esc>
 
 " No backup lines
 set nobackup
